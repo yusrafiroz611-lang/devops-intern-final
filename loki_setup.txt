@@ -1,0 +1,4 @@
+Loki setup using Docker:
+1. Run: docker run -d --name=loki grafana/loki:latest
+2. Forward logs using Loki's API or Promtail.
+3. Query logs in Grafana with Loki datasource.
